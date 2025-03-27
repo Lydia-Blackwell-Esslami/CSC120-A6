@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Train implements TrainRequirements {
     //Attributes
     private Engine thisEngine;
-    private ArrayList<Car> cars;
+    public ArrayList<Car> cars;
 
 
     /**
@@ -82,6 +82,12 @@ public class Train implements TrainRequirements {
     public static void main(String[] args) {
         Train myTrain = new Train (FuelType.INTERNAL_COMBUSTION, 100.0, 4, 100);
         System.out.println(myTrain.toString());
+        for (int i = 0; i < (myTrain.cars.size()); i++) {
+            Car car = myTrain.cars.get(i);
+            Passenger passenger = new Passenger("A");
+            car.addPassenger(passenger);
+        }    
+        myTrain.printManifest();
     }
 
 }   

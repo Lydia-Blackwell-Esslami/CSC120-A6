@@ -12,24 +12,24 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 _____ 10 pts: The class meaningfully implements each of the tests in described in the `TrainTest.java`:
 
-      _____ `testEngineConstructor()`
-      _____ `testEngineGo()`
-      _____ `testCarAddPassenger()`
-      _____ `testCarRemovePassenger()`
-      _____ `testPassengerBoardCarWithSpace()`
-      _____ `testPassengerBoardCarFull()`
-      _____ `testTrainConstructor()`
-      _____ `testTrainPassengerCount()`
-      _____ `testTrainGetCar()`
-      _____ `testTrainPrintManifest()`
+      **YES** `testEngineConstructor()`
+      **YES** `testEngineGo()`
+      **YES** `testCarAddPassenger()`
+      **YES** `testCarRemovePassenger()`
+      **YES** `testPassengerBoardCarWithSpace()`
+      **YES** `testPassengerBoardCarFull()`
+      **YES** `testTrainConstructor()`
+      **YES** `testTrainPassengerCount()`
+      **YES** `testTrainGetCar()`
+      **YES** `testTrainPrintManifest()`
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+**NO** 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+**NO** 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+**PART** 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _____ Classes & class members all have Javadoc header comments
 
@@ -41,6 +41,6 @@ _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _____ Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed `rubric.md` file)
+**YES** 1 pt: All required files included with submission (including completed `rubric.md` file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the tests you implemented and what they do**
+**YES** 1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the tests you implemented and what they do**
